@@ -1,0 +1,88 @@
+:root{
+  font-size: 62.5%;
+}
+
+span{
+  color: #00BFA6;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 28px;
+  color: #FFF;
+}
+
+body {
+  margin: 0;
+  background-color: #2c2b3d;
+  color: #fff;
+  font-family: "JetBrains Mono", monospace;
+}
+
+nav {
+  width: 1083px;
+  margin: auto;
+  padding: 71px 98px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 64px;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 283px;
+  width: 1092px;
+  margin: 100px auto 157px;
+  gap: 77px;
+}
+
+.text{
+  text-align: center;
+}
+
+.text h1{
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 40px;
+  margin-bottom: 59px;
+}
+
+.text p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 28px;
+  color: #C2C2C2;
+}
+
+.line {
+  width: 568px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #00BFA6;
+}
+
+footer {
+  margin: 27px 0 23px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 1.4rem;
+}
+
+#lock {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 20px;
+}
